@@ -25,6 +25,30 @@ a {
 }
 
 .nav-list-categories {
+  width: 100%;
+}
+
+.nav-list-categories-item {
   background-color: red;
+}
+
+.Category-subCategory {
+  display: none;
+}
+
+.Category-subCategory-item {
+  display: block;
+}
+
+.subCategory-item-list {
+  display: none;
+}
+
+.nav-list-categories-item:hover .Category-subCategory {
+  display: block;
+}
+
+.Category-subCategory:hover .subCategory-item-list {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

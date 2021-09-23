@@ -8,4 +8,19 @@ a
     width: 100%
     background-color: black
     &-categories
-        background-color: red
+        width: 100%
+        &-item
+            background-color: red
+
+.Category-subCategory
+    display: none
+    &-item
+        display: block
+
+.subCategory-item-list
+    display: none
+
+.nav-list-categories-item:hover .Category-subCategory
+    display: block
+.Category-subCategory:hover .subCategory-item-list
+    display: block
