@@ -8,14 +8,29 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <title></title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
+  
   <header>
+    <div class="container-search">
+      <img class="container-search-icon" src="https://jorge-rangel.dev/assets/icons/logo.svg" alt="" />
+      <vtex.cmc:fullTextSearchBox />
+    </div>
+
+    <div class="container-title">
+      <p class="container-title-ecoomerce">
+        Sphere Technology
+      </p>
+    </div>
+
     <nav class="nav-list">
       <ul class="nav-list-categories">
-        <li class="nav-list-categories-item"><a href="" class="item-title--category"> Home</a></li>
-        <li class="nav-list-categories-item"><a href="" class="item-title--Category">Products</a>
+        <li class="nav-list-categories-item"><a href="" class="nav-list-title"> Home</a></li>
+        <li class="nav-list-categories-item"><a href="" class="nav-list-title">Products</a>
 
           <!-- Category -->
           <ul class="Category-subCategory">
@@ -103,10 +118,32 @@
           </ul>
 
         </li>
-        <li class="nav-list-categories-item"><a href="" class="item-title--Category">Contacto</a></li>
-        <li class="nav-list-categories-item"><a href="" class="item-title--Category">Nosotros</a></li>
+        <li class="nav-list-categories-item"><a href="" class="nav-list-title">Contacto</a></li>
+        <li class="nav-list-categories-item"><a href="" class="nav-list-title">Nosotros</a></li>
       </ul>
     </nav>
+
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://fanaticosdelhardware.com/wp-content/uploads/2018/12/es-banner-superfamilia-1127x300-2.jpg"
+            alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://pcprozone.com/img/cms/BANNERGAMINGZONE.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://fanaticosdelhardware.com/wp-content/uploads/2018/12/es-banner-superfamilia-1127x300-2.jpg"
+            alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+
   </header>
   <main>
     <div class="container-article">
@@ -136,13 +173,117 @@
       </article>
     </div>
 
-    <div>
-      <img src="https://fanaticosdelhardware.com/wp-content/uploads/2018/12/es-banner-superfamilia-1127x300-2.jpg"
-        alt="" />
-    </div>
   </main>
 
-  <footer></footer>
+  <footer>
+    <div class="container-footer">
+      <article class="footer-article">
+        <ul class="article-list">
+          <li class="article-item"> <a href="" class="article-item--title">SOBRE NOSOTROS</a>
+            <ul class="article">
+              <li class="article-list-item"><a href="" class="article-list-text">¿Quienes Somos?</a></li>
+              <li class="article-list-item"><a href="" class="article-list-text">Nuestra Historia</a></li>
+              <li class="article-list-item"><a href="" class="article-list-text">Nuestra Informacion</a></li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+
+      <article class="footer-article">
+        <ul class="article-list">
+          <li class="article-item"><a href="" class="article-item--title">CATEGORIAS DESTACADAS</a>
+            <ul class="article">
+              <li class="article-list-item"><a href="" class="article-list-text"> Procesadores</a></li>
+              <li class="article-list-item"><a href="" class="article-list-text"> Memorias Ram</a></li>
+              <li class="article-list-item"><a href="" class="article-list-text">Laptops</a></li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+
+
+      <article class="footer-article">
+        <ul class="footer-article--list">
+          <li class="article-item"> <a href="" class="article-item--title"> SERVICIO AL CLIENTE</a>
+            <ul class="article">
+              <li class="article-list-item"> <a href="" class="article-list-text"> Politica de entregas</a></li>
+              <li class="article-list-item"> <a href="" class="article-list-text">Politica devoluciones</a></li>
+              <li class="article-list-item"><a href="" class="article-list-text">Nuestra informacion</a></li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+
+
+      <div class="container-icons">
+        <div class="container-article">
+          <article class="container-article-social">
+            <img
+              src="https://epartner.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.23.0/public/react/a6d71c30e199d4bbc6edcc74fece802e.svg"
+              alt="" />
+            <img
+              src="https://epartner.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.23.0/public/react/22d4651faf43a34a3f67d6694a0aa963.svg"
+              alt="" />
+            <img
+              src="https://epartner.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.23.0/public/react/5433046165cea616dc1f39ec7ba9f501.svg"
+              alt="" />
+          </article>
+        </div>
+
+        <div class="container-article">
+          <article class="container-article-paymentmethods">
+            <img
+              src="https://epartner.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.23.0/public/react/a8a977f569877c2df3a46c5a7b0d4dec.svg"
+              alt="" />
+            <img
+              src="https://epartner.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.23.0/public/react/69f24958103909c9e64057b9956d886f.svg"
+              alt="" />
+            <img
+              src="https://epartner.vtexassets.com/_v/public/assets/v1/published/vtex.store-footer@2.23.0/public/react/d48ef71514c2996f778851c1df9cc5d0.svg"
+              alt="" />
+          </article>
+        </div>
+
+        <div class="container-article">
+          <article class="container-article-technologies">
+            <img src="https://saetasport.vtexassets.com/arquivos/footer-epartner.png" alt="" />
+            <img src="https://saetasport.vtexassets.com/arquivos/footer-vtex.png" alt="" />
+          </article>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
 </body>
 
 </html>

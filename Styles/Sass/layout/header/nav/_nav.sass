@@ -4,23 +4,67 @@ a
     text-decoration: none
     color: white
 
+.container-search
+    width: 100%
+    &-icon
+        width: 10%
+        
+
 .nav-list
+    margin: 0
+    padding: 0
     width: 100%
     background-color: black
+    transition: 1s
+
     &-categories
         width: 100%
-        &-item
-            background-color: red
+        display: flex
+        align-items: center
+        margin: 0
+        padding: 0
+        justify-content: space-evenly
+        transition: 1s
+    &-title
+        font-size: 1.8rem
 
 .Category-subCategory
     display: none
+    height: auto
+    padding: 1rem
+    transition: 1s
+
     &-item
         display: block
+        transition: 1s
 
 .subCategory-item-list
     display: none
+    transition: 1s
 
 .nav-list-categories-item:hover .Category-subCategory
+    transition: 1s
     display: block
 .Category-subCategory:hover .subCategory-item-list
+    transition: 1s
     display: block
+
+.container-title
+    width: 100%
+    height: 150px
+    padding: 0
+    margin: 0
+    display: flex
+    align-items: center
+    justify-content: center
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-tecnologia-futura-circuito-cibernetico_42077-5144.jpg?size=626&ext=jpg);
+    background-position: center
+    background-repeat: no-repeat
+
+    &-ecoomerce
+        font-size: 6rem
+        font-weight: 700
+        font-family: Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif
+        padding: 0
+        margin: 0
+        color: white
