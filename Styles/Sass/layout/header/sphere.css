@@ -1,0 +1,41 @@
+.container-search .busca {
+  border: none;
+  height: 3rem;
+}
+
+.container-search legend {
+  display: none;
+}
+
+.container-search label {
+  display: none;
+}
+
+.container-search select#ftDept1581c68c8ece416cbbade4a31ff45020 {
+  display: none;
+}
+
+.container-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-search input#ftBoxa1056a4625af4953bf38c768c3332025 {
+  margin: 0 2rem;
+  width: 27rem;
+  height: 3rem;
+  padding: 1rem;
+  background: black;
+  border: none;
+  border-bottom: solid 2px white;
+}
+
+
+.container-search 
+ input#ftBtna1056a4625af4953bf38c768c3332025 {
+    background: #ff6000;
+    border: none;
+    border-radius: 12px;
+    padding: 0.8rem 1.5rem;
+}
